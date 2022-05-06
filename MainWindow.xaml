@@ -1,0 +1,16 @@
+﻿<Window x:Class="prjWPFkfcICE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prjWPFkfcICE"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnStreetwise1" Content="Streetwise 1&#xD;&#xA;" HorizontalAlignment="Left" Margin="133,92,0,0" VerticalAlignment="Top" Height="31" Width="79" Click="btnStreetwise1_Click" RenderTransformOrigin="0.54,0.536"/>
+        <Button x:Name="btnStreetwise2_Copy" Content="Streetwise 2&#xA;" HorizontalAlignment="Left" Margin="133,154,0,0" VerticalAlignment="Top" Height="31" Width="79" Click="btnStreetwise2_Click" RenderTransformOrigin="0.853,-0.048"/>
+        <Button x:Name="btnStreetwise3_Copy" Content="Streetwise 3" HorizontalAlignment="Left" Margin="133,217,0,0" VerticalAlignment="Top" Height="31" Width="79" Click="btnStreetwise3_Click"/>
+        <Button x:Name="btnStreetwise4_Copy" Content="Streetwise 4" HorizontalAlignment="Left" Margin="133,277,0,0" VerticalAlignment="Top" Height="31" Width="79" Click="btnStreetwise4_Click"/>
+
+    </Grid>
+</Window>
