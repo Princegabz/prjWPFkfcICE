@@ -8,12 +8,12 @@ namespace prjWPFkfcICE
 {
     class ProductData
     {
-        public ProductData()
+        public ProductData(String[] ProductName, int[] ProductPrice, int Total, String Cart)
         {
-
+         
         }
 
-        public static List<Products> lsProducts = new List<Products>();
+        public static List<Products> Products = new List<Products>();
 
 
         

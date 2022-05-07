@@ -20,7 +20,6 @@ namespace prjWPFkfcICE
     /// </summary>
     public partial class MainWindow : Window
     {
-        ProductData pd = new ProductData();
         Products p = new Products();
         public MainWindow()
         {
